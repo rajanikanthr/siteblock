@@ -1,5 +1,6 @@
 # siteblock
-** Siteblock chrome extension **
+**Siteblock chrome extension**
+---
 
 Forked from the original [repository](https://github.com/csapuntz/siteblock), removed blocked by message, so it just displays a blank page.
 
