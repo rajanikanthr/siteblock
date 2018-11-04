@@ -9,7 +9,7 @@ if ("state" in localStorage) {
 function block(id, tab_url)
 {
    chrome.tabs.update(id, 
-           { "url" : chrome.extension.getURL("../html/blocked.html") + "?url=" + escape(tab_url) });
+           { "url" : chrome.extension.getURL("../html/blocked.html")});
 }
 
 function processTab(tab) 
